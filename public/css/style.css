@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.nav{
+    background: grey;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 10%;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.container{
+    background: rgb(32, 32, 32);
+    color: blanchedalmond;
+    height: 90%;
+    /* position: fixed; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.chatbox{
+    border:2px solid grey;
+    padding: 20px;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.chatbox.scroll{
+    top:100%;
+}
+
+.message{
+    padding: 10px;
+    border: 1px solid greenyellow;
+    display: inline;
+    max-width: 60%;
+    width: auto;
+    border-radius: 5px;
+
+}
+
+.left{
+    display: flex;
+    align-self: flex-start;
+    margin: 5px 0px;
+    background: rgba(68, 67, 67, 0.808);
+}
+
+.right{
+    display: flex;
+    align-self: flex-end;
+    margin: 5px 0px;
+    background: rgba(176, 241, 111, 0.384);
+}
+
+.joining{
+    display: flex;
+    align-self: center;
+    font-size: small;
+    background: rgba(202, 202, 202, 0.205);
+    border: none;
+    padding: 7px;
+    text-decoration: underline;
+    border-radius: 25px;
+    
+}
+
+/* .chatbox>div{
+    display: block;
+    width: 100%;
+    border: 2px solid yellow;
+    padding: 10px;
+    height: auto;
+} */
+
+form{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+form>input{
+    width: 80%;
+    font-size: larger;
+}
+
+form>button{
+    width:20%;
+    font-size: larger;
+}
